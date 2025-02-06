@@ -1,0 +1,66 @@
+.calculator{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid rgb(165, 164, 164);
+    margin:  auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+   background-color: rgb(22, 3, 49);
+   border-radius: 20px;
+}
+
+.calculator>.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap : 5px
+}
+
+.calculator>.form-group>button{
+    width : 25%;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(60, 27, 85);
+    color: white;
+}
+
+.calculator>.form-group>button:hover{
+    background-color: rgb(121, 56, 171);
+}
+
+.calculator>.form-group>input{
+    width: 100%;
+    font-size: 40px;
+    padding-right: 10px;
+    border: 1px solid rgb(200, 194, 194);
+    text-align: end;
+    outline: none;
+    border-radius:20px;
+    background-color: rgb(61, 3, 61);
+    color: aliceblue;
+}
+.calculator>.form-group>button.symbol{
+    background-color: rgb(122, 82, 148);
+}
+
+.calculator>.form-group>button.symbol:hover{
+    background-color: rgb(205, 134, 255);
+}
+.calculator>.form-group>button.clear{
+    background-color: rgb(221, 158, 43);
+}
+
+.calculator>.form-group>button.clear:hover{
+    background-color: rgb(247, 189, 81);
+    
+}
+.calculator>.form-group>button.equalto{
+    background-color: purple;
+    font-size: 30px;
+}
+.calculator>.form-group>button.equalto:hover{
+    background-color: rgb(218, 5, 218);
+}
